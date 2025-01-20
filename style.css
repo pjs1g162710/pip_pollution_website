@@ -36,7 +36,8 @@
 
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: length-percentage;
+    font-size: 40px;
+    font-weight: 300px;
     color: rgba(231, 11, 11, 0.856);
     justify-content: center;
     text-align: center;
@@ -50,11 +51,12 @@ h1{
 
 h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
     color: rgb(247, 225, 27);
     background-color:rgb(6, 48, 68);
     padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
         }
 
     /*From this point it's styling buttons in the body of the text
@@ -99,7 +101,7 @@ h2 {
     border-radius: 15px;
     border-style: ridge;
     box-shadow: 2px 5px #1a1a49;
-    padding-top: 10px;
+    padding-top: 30px;
     padding-bottom: 60px;
     padding-left: 2px;
     padding-right: 2px; 
@@ -117,11 +119,11 @@ h2 {
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(105, 102, 133);
-    padding-top: 100px;
-    padding-bottom: 8px;
+    box-shadow: 2px 5px #1a1a49;
+    padding-top: 30px;
+    padding-bottom: 60px;
     padding-left: 2px;
-    padding-right: 2px; }
+    padding-right: 2px;  }
 
 .box3{
     background-color: teal;
@@ -135,11 +137,11 @@ h2 {
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(105, 102, 133);
-    padding-top: 100px;
-    padding-bottom: 8px;
+    box-shadow: 2px 5px #1a1a49;
+    padding-top: 30px;
+    padding-bottom: 60px;
     padding-left: 2px;
-    padding-right: 2px;
+    padding-right: 2px; ;
 }
 
 .box4{
@@ -155,11 +157,11 @@ h2 {
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(105, 102, 133);
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-    padding-right: 40px; 
+    box-shadow: 2px 5px #1a1a49;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 2px;
+    padding-right: 2px; 
 }
 
 .box5{
@@ -174,11 +176,11 @@ h2 {
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(105, 102, 133);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
-    padding-right: 20px; 
+    box-shadow: 2px 5px #1a1a49;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 2px;
+    padding-right: 2px; 
 }
 
 .box6{
@@ -188,13 +190,16 @@ h2 {
     color: rgb(187, 9, 9);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    padding: 4%;
     margin: 10px;
     flex: 1 1 300px;
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(105, 102, 133);
+    box-shadow: 2px 5px #1a1a49;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 2px;
+    padding-right: 2px; 
 }
 
 .box7{
@@ -204,13 +209,16 @@ h2 {
     color: rgb(187, 9, 9);;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    padding: 4%;
-    margin: 10px;
+       margin: 10px;
     flex: 1 1 300px;
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(105, 102, 133);
+    box-shadow: 2px 5px #1a1a49;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    padding-left: 2px;
+    padding-right: 2px; 
 }
 
 
@@ -228,4 +236,12 @@ footer {
     text-align: center;
     font-style: italic;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(184, 85%, 47%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    
 }
