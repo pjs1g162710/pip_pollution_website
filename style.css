@@ -8,19 +8,13 @@
 /*This creates the background of navbar - is in right place and does work*/
 .mongoose {
     display: grid;
-    grid-template-rows: 1fr;
-    flex-direction:row;
-    justify-content: space-evenly;
+    grid-template-columns: 1fr;
     align-content: center;
     align-items: center;
     margin: auto;
     padding-top: 6px;
     padding-bottom: 6px;
-    padding-inline-start: 5px;
-    padding-inline-end: 5px;
-    flex: 1 1 300px;
     border-radius: 12px;
-    max-width: 1200px;
     font-family: Arial, Helvetica, sans-serif;
     color: blueviolet;
     font-size: medium;
@@ -226,6 +220,36 @@ h2 {
 /* The hover functions are not currently working */
 .box1:hover {
     background-color: rgb(11, 90, 90);}
+
+
+.SmartBuoys {
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+.SmartBuoyAR {
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.methane {
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.assays {
+    box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.ferrybox { box-sizing: content-box;
+    display: grid;
+    grid-template-columns: 1fr;}
 
 
 .body {
