@@ -81,12 +81,12 @@
 
 .box1{
     background-color: teal;
-    background-image: url('./assets/kynance-clip.JPG') ;
+    background-image: url('./assets/smartbuoy\ banner.jpg') ;
     background-size:contain;
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    padding: 2%;
+    padding: 4%;
     margin: 10px;
     flex: 1 1 300px;
     text-align: center;
@@ -95,6 +95,88 @@
     box-shadow: 2px 5px rgb(15, 10, 58);
 }
 
+.box2{
+    background-color: teal;
+    background-image: url('./assets/Screenshot_20191112-092617_SmartBuoy.jpg') ;
+    background-size:contain;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: ridge;
+    box-shadow: 2px 5px rgb(15, 10, 58);
+    padding-top: 160px;
+    padding-bottom: 120px;
+    padding-left: 2px;
+    padding-right: 2px;
+
+.box3{
+    background-color: teal;
+    background-image: url('./assets/smartbuoy\ banner.jpg') ;
+    background-size:contain;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 4%;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: ridge;
+    box-shadow: 2px 5px rgb(15, 10, 58);
+}
+
+.box4{
+    background-color: teal;
+    background-image: url('./assets/smartbuoy\ banner.jpg') ;
+    background-size:contain;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 4%;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: ridge;
+    box-shadow: 2px 5px rgb(15, 10, 58);
+}
+
+.box5{
+    background-color: teal;
+    background-image: url('./assets/smartbuoy\ banner.jpg') ;
+    background-size:contain;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 4%;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: ridge;
+    box-shadow: 2px 5px rgb(15, 10, 58);
+}
+
+.box6{
+    background-color: teal;
+    background-image: url('./assets/smartbuoy\ banner.jpg') ;
+    background-size:contain;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 4%;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: ridge;
+    box-shadow: 2px 5px rgb(15, 10, 58);
+}
 .box1:hover {
     background-color: rgb(11, 90, 90);}
 
@@ -103,6 +185,60 @@
 .body {
     background-color: rgb(114, 114, 189);
 }
+
+
+/* this is for the dark mode light mode switcher, adapted from https://www.freecodecamp.org/news/how-to-make-a-landing-page-with-html-css-and-javascript/ */
+.checkbox {
+    opacity: 0;
+    position: absolute;
+  }
+
+  .label {
+    width: 50px;
+    height: 20px;
+    background-color: #111;
+    display: flex-inline;
+    border-radius: 30px;
+    padding: 6px;
+    position: relative;
+
+.switcher {
+        background-color: #fff;
+        position: absolute;
+        top: 5px;
+        left: 2px;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+
+.moon {
+    color: #ffa502;
+          }
+          
+.sun {
+    color: #ff4757;
+
+    .checkbox:checked + .label .switcher {
+        transform: translateX(24px);
+      }
+          }
+
+          /* this isn't working */
+@media screen and (max-width: 768px) {
+    .hamburger {
+        display: block;
+        cursor: pointer;
+            }
+
+            ul {
+                background-color: #fff;
+                flex-direction: column;
+                position: fixed;
+                nav-right: 100%;
+                top: 5rem;
+                width: 100%;
+                text-align: center;
+              }
 
 .footer {
     text-justify: center;
