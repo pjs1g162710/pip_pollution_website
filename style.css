@@ -1,15 +1,15 @@
 
 <style>
-/*this should change nav bar button colour - it actually changes the background! */
 
-.button:hover {
+
+/*this should change nav bar button colour  */
+.mongoose:hover {
     background-color: #0056b3;
-    color:goldenrod;
-}
+    color:goldenrod}
 
 /*This creates the background of navbar - is in right place and does work*/
-.button {
-    display: inline-flex;
+.mongoose {
+    display: inline-flexbox;
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
