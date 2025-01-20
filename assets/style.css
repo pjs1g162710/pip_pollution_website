@@ -1,14 +1,12 @@
-<style>
-
 
 /*this should change nav bar button colour - it actually changes the background! */
-.nav:hover {
+.navbar a:hover {
     background-color: #0056b3;
     color:goldenrod;
 }
 
 /*This creates the background of navbar - is in right place and does work*/
-.nav {
+.navbar a {
     display: inline-flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -28,4 +26,3 @@
 
 
 
-</style>
