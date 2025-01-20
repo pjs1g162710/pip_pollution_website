@@ -25,17 +25,25 @@
     font-weight:600;
     text-align: center;
     background-color: hsl(184, 85%, 47%);
+    box-shadow: 2px 5px thistle;
+    
        }
 
 
     h1{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: blueviolet;
-        justify-content: center;
+        font-weight: 800;
+            color: rgba(218, 52, 52, 0.856);
+                 justify-content: center;
         text-align: center;
         background-color: aquamarine;
-        padding: 20px;
-        background-image: ./
+        padding: 5%;
+        background-image: url('./assets/kynance-clip.JPG') ;
+           background-size:contain;
+        width:length;
+        height: fit-content(<length-percentage>);
+       
+
     } 
 
     /*From this point it's styling buttons in the body of the text
@@ -63,6 +71,7 @@
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
+    box-shadow: 2px 5px rgb(188, 204, 143);
 }
 
 .box:hover {
