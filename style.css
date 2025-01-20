@@ -8,10 +8,11 @@
 /*This creates the background of navbar - is in right place and does work*/
 .mongoose {
     display: inline-flexbox;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    float:  none
+    justify-content: center;
+    flex-wrap: nowrap;
     align-items: center;
-    margin: 10px auto;
+    margin: auto;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-inline-start: 50px;
@@ -29,11 +30,15 @@
     
        }
 
+       .mongoose:active {
+        background-color: hsl(39, 85%, 47%);
+       }
 
     h1{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 800;
-            color: rgba(218, 52, 52, 0.856);
+        font-size: length-percentage;
+        
+            color: rgba(231, 11, 11, 0.856);
                  justify-content: center;
         text-align: center;
         background-color: aquamarine;
@@ -55,7 +60,7 @@
     align-items: center;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgb(50, 8, 199);
+    background-color: rgb(127, 204, 240);
     max-width: 1200px;
 }
 
@@ -74,5 +79,27 @@
     box-shadow: 2px 5px rgb(188, 204, 143);
 }
 
+.box1{
+    background-color: teal;
+    background-image: url('./assets/kynance-clip.JPG') ;
+    background-size:contain;
+    color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 2%;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: ridge;
+    box-shadow: 2px 5px rgb(15, 10, 58);
+}
+
+.box1:hover {
+    background-color: rgb(11, 90, 90);}
+
 .box:hover {
     background-color: rgb(11, 90, 90);}
+.body {
+    background-color: rgb(114, 114, 189);
+}
