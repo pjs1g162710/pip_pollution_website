@@ -43,7 +43,7 @@
         text-align: center;
         background-color: aquamarine;
         padding: 5%;
-        background-image: url('./assets/kynance-clip.JPG') ;
+        background-image: url('./assets/slocums-clip.jpg') ;
            background-size:cover;
         width:length;
         height: fit-content(<length-percentage>);
@@ -60,7 +60,7 @@
     align-items: center;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgb(127, 204, 240);
+    background-color: rgb(56, 149, 192);
     max-width: 1200px;
 }
 
@@ -76,6 +76,7 @@
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
+    border-color: #ff4757;
     box-shadow: 2px 5px rgb(188, 204, 143);
 }
 
