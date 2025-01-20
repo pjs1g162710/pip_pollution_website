@@ -44,7 +44,7 @@
         background-color: aquamarine;
         padding: 5%;
         background-image: url('./assets/kynance-clip.JPG') ;
-           background-size:contain;
+           background-size:cover;
         width:length;
         height: fit-content(<length-percentage>);
        
@@ -82,58 +82,63 @@
 .box1{
     background-color: teal;
     background-image: url('./assets/smartbuoy\ banner.jpg') ;
-    background-size:contain;
+    background-size:cover;
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    padding: 4%;
     margin: 10px;
     flex: 1 1 300px;
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(15, 10, 58);
+    box-shadow: 2px 5px rgb(15, 10, 58)
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 2px;
+    padding-right: 2px; 
 }
 
 .box2{
     background-color: teal;
     background-image: url('./assets/Screenshot_20191112-092617_SmartBuoy.jpg') ;
-    background-size:contain;
+    background-size:cover;
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    
-    margin: 10px;
+        margin: 10px;
     flex: 1 1 300px;
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
     box-shadow: 2px 5px rgb(15, 10, 58);
-    padding-top: 160px;
-    padding-bottom: 120px;
+    padding-top: 100px;
+    padding-bottom: 8px;
     padding-left: 2px;
-    padding-right: 2px;
+    padding-right: 2px; }
 
 .box3{
     background-color: teal;
-    background-image: url('./assets/smartbuoy\ banner.jpg') ;
-    background-size:contain;
+    background-image: url('./assets/phsensor.jpg') ;
+    background-size: cover;
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    padding: 4%;
     margin: 10px;
     flex: 1 1 300px;
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
     box-shadow: 2px 5px rgb(15, 10, 58);
+    padding-top: 100px;
+    padding-bottom: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
 }
 
 .box4{
     background-color: teal;
-    background-image: url('./assets/smartbuoy\ banner.jpg') ;
-    background-size:contain;
+    background-image: url('./assets/methanesensinglayer.jpg') ;
+    background-size:cover;
     color: goldenrod;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
@@ -144,6 +149,10 @@
     border-radius: 15px;
     border-style: ridge;
     box-shadow: 2px 5px rgb(15, 10, 58);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px; 
 }
 
 .box5{
