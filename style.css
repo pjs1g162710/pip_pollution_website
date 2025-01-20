@@ -30,26 +30,32 @@
     
        }
 
-       .mongoose:active {
+.mongoose:active {
         background-color: hsl(39, 85%, 47%);
        }
 
-    h1{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: length-percentage;
-        
-            color: rgba(231, 11, 11, 0.856);
-                 justify-content: center;
-        text-align: center;
-        background-color: aquamarine;
-        padding: 5%;
-        background-image: url('./assets/slocums-clip.jpg') ;
-           background-size:cover;
-        width:length;
-        height: fit-content(<length-percentage>);
-       
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: length-percentage;
+    color: rgba(231, 11, 11, 0.856);
+    justify-content: center;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 5%;
+    background-image: url('./assets/slocums-clip.jpg') ;
+    background-size:cover;
+    width:length;
+    height: fit-content(<length-percentage>);
+          } 
 
-    } 
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(247, 225, 27);
+    background-color:rgb(6, 48, 68);
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 3px;
+        }
 
     /*From this point it's styling buttons in the body of the text
 /* Flexbox content area */
@@ -60,7 +66,7 @@
     align-items: center;
     margin: 20px auto;
     padding: 20px;
-    background-color: rgb(56, 149, 192);
+    background-color: rgb(6, 48, 68);
     max-width: 1200px;
 }
 
@@ -77,14 +83,14 @@
     border-radius: 15px;
     border-style: ridge;
     border-color: #ff4757;
-    box-shadow: 2px 5px rgb(188, 204, 143);
+    box-shadow: 2px 5px blue;
 }
 
 .box1{
     background-color: teal;
     background-image: url('./assets/smartbuoy\ banner.jpg') ;
     background-size:cover;
-    color: goldenrod;
+    color: rgb(187, 9, 9);;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     margin: 10px;
@@ -92,8 +98,8 @@
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(15, 10, 58)
-    padding-top: 60px;
+    box-shadow: 2px 5px #1a1a49;
+    padding-top: 10px;
     padding-bottom: 60px;
     padding-left: 2px;
     padding-right: 2px; 
@@ -103,7 +109,7 @@
     background-color: teal;
     background-image: url('./assets/Screenshot_20191112-092617_SmartBuoy.jpg') ;
     background-size:cover;
-    color: goldenrod;
+    color: rgb(187, 9, 9);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
         margin: 10px;
@@ -111,7 +117,7 @@
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(15, 10, 58);
+    box-shadow: 2px 5px rgb(105, 102, 133);
     padding-top: 100px;
     padding-bottom: 8px;
     padding-left: 2px;
@@ -121,7 +127,7 @@
     background-color: teal;
     background-image: url('./assets/phsensor.jpg') ;
     background-size: cover;
-    color: goldenrod;
+    color: rgb(187, 9, 9);;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     margin: 10px;
@@ -129,7 +135,7 @@
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(15, 10, 58);
+    box-shadow: 2px 5px rgb(105, 102, 133);
     padding-top: 100px;
     padding-bottom: 8px;
     padding-left: 2px;
@@ -140,7 +146,7 @@
     background-color: teal;
     background-image: url('./assets/methanesensinglayer.jpg') ;
     background-size:cover;
-    color: goldenrod;
+    color: rgb(187, 9, 9);od;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     padding: 4%;
@@ -149,7 +155,7 @@
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(15, 10, 58);
+    box-shadow: 2px 5px rgb(105, 102, 133);
     padding-top: 40px;
     padding-bottom: 40px;
     padding-left: 40px;
@@ -159,28 +165,27 @@
 .box5{
     background-color: teal;
     background-image: url('./assets/testtubes.jpg') ;
-    background-size:contain;
-    color: goldenrod;
+    background-size:cover;
+    color: rgb(187, 9, 9);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
-    
-    margin: 10px;
+        margin: 10px;
     flex: 1 1 300px;
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(15, 10, 58);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px; 
+    box-shadow: 2px 5px rgb(105, 102, 133);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px; 
 }
 
 .box6{
     background-color: teal;
     background-image: url('./assets/smartbuoy\ banner.jpg') ;
-    background-size:contain;
-    color: goldenrod;
+    background-size:cover;
+    color: rgb(187, 9, 9);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 800;
     padding: 4%;
@@ -189,72 +194,38 @@
     text-align: center;
     border-radius: 15px;
     border-style: ridge;
-    box-shadow: 2px 5px rgb(15, 10, 58);
+    box-shadow: 2px 5px rgb(105, 102, 133);
 }
+
+.box7{
+    background-color: teal;
+    background-image: url('./assets/underway_north_sea.jpg') ;
+    background-size:cover;
+    color: rgb(187, 9, 9);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    padding: 4%;
+    margin: 10px;
+    flex: 1 1 300px;
+    text-align: center;
+    border-radius: 15px;
+    border-style: ridge;
+    box-shadow: 2px 5px rgb(105, 102, 133);
+}
+
+
+/* The hover functions are not currently working */
 .box1:hover {
     background-color: rgb(11, 90, 90);}
 
-.box:hover {
-    background-color: rgb(11, 90, 90);}
+
 .body {
     background-color: rgb(114, 114, 189);
 }
 
-
-/* this is for the dark mode light mode switcher, adapted from https://www.freecodecamp.org/news/how-to-make-a-landing-page-with-html-css-and-javascript/ */
-.checkbox {
-    opacity: 0;
-    position: absolute;
-  }
-
-  .label {
-    width: 50px;
-    height: 20px;
-    background-color: #111;
-    display: flex-inline;
-    border-radius: 30px;
-    padding: 6px;
-    position: relative;
-
-.switcher {
-        background-color: #fff;
-        position: absolute;
-        top: 5px;
-        left: 2px;
-        height: 20px;
-        width: 20px;
-        border-radius: 50%;
-
-.moon {
-    color: #ffa502;
-          }
-          
-.sun {
-    color: #ff4757;
-
-    .checkbox:checked + .label .switcher {
-        transform: translateX(24px);
-      }
-          }
-
-          /* this isn't working */
-@media screen and (max-width: 768px) {
-    .hamburger {
-        display: block;
-        cursor: pointer;
-            }
-
-            ul {
-                background-color: #fff;
-                flex-direction: column;
-                position: fixed;
-                nav-right: 100%;
-                top: 5rem;
-                width: 100%;
-                text-align: center;
-              }
-
-.footer {
+footer {
     text-justify: center;
     text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
 }
