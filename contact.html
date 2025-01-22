@@ -24,8 +24,41 @@
 </header>
 <h1> Contact Page</h1>
 
+</header>
 <body>
+    <!--CONTACTS: Include your contact details in a form format, name, email message, using mailto: -->
+   <h2> To contact Pip Simpson, please fill out the form below: </h2>
+
+   <div class="container">
+    <form method = POST action="action_page.php" id="contact-form">
+  
+      <ul><label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.."> 
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.."> </ul> 
+
+      <ul><label for="phone">Phone number</label>
+      <input type="number" id="phone" name="Phone number" placeholder="Your name.."> </ul>
     
+       <ul><label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="your-email@domain.com"> </ul> <br>
+
+        <ul><label for="subject">Subject</label>
+            <input type="text" id="subject" name="Subject" placeholder="Indicate topic of interest here"> 
+                              
+      <ul><label for="Message">Message</label> </ul> <br>
+      <textarea id="Message" name="subject" placeholder="Write message here" style="height:200px" ></textarea>
+  
+      <input type="submit" value="Submit" mailto: pipsimpson2022@gmail.com>
+  
+    </form>
+  </div>
+
+  
+
+
+  
 </body>
 <footer>&copy;2025 Copyright Pip Simpson 2025</footer>
 </html>
