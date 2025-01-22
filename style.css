@@ -1,19 +1,19 @@
 
 
 /*this should change nav bar button colour  */
-.mongoose:hover {
-    background-color: #0056b3;
+.navbutton:hover {
+    background-color: #1faa49;
     color:goldenrod}
 
 /*This creates the background of navbar - is in right place and does work*/
-.mongoose {
+.navbar {
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
-    margin: auto;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    margin: length;
+    padding-top: 10px;
+    padding-bottom: 10px;
 
     font-family: Arial, Helvetica, sans-serif;
     color: blueviolet;
@@ -25,14 +25,25 @@
        
        }
 
-.mongoose:active {
+.navbutton {
+    display: inline-flex;
+    margin: length;
+    background-color: #0056b3;
+    color:goldenrod;
+    padding: 9px;
+    border-style: solid;
+    box-shadow: 2px 3px rgb(162, 190, 201);
+    border-radius: 15%;
+    }
+
+.navbutton:active {
         background-color: hsl(39, 85%, 47%);
        }
 
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
-    font-weight: 300px;
+    font-weight: bold;
     color: rgba(231, 11, 11, 0.856);
     justify-content: center;
     text-align: center;
@@ -64,37 +75,34 @@ h2 {
     margin: 20px auto;
     padding: 20px;
     background-color: rgb(6, 48, 68);
-    max-width: 1200px;
+    min-width: 1200px;
 }
 
 /* Flexbox items */
 .box{
-    display: flex;
-    justify-content:flex-start
-   object-fit: fill;
-   width:800px;
-   height: 200px;
-    background-color: teal;
-    color: goldenrod;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 800;
-    padding: 20px;
-    margin: 10px;
-    
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    box-shadow: 2px 3px rgb(162, 190, 201) ;
+    color:rgb(143, 8, 8);
+    text-shadow: #1faa49;
     text-align: center;
-    border-radius: 15px;
-    border-style: ridge;
-    border-color: #ff4757;
-    box-shadow: 2px 5px blue;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(11, 90, 90);
+    border-radius: 2%;
+    margin-block: 10px;
+    margin-inline: 10px;
+
+    
 }
 
 
-
-/* The hover functions are not currently working */
-.box1:hover {
-    background-color: rgb(11, 90, 90);}
-
-
+/* Hover colour on main content */
+.box:hover {
+    background-color: rgb(80, 212, 212);}
 
 
 
