@@ -65,6 +65,23 @@ h2 {
     padding-bottom: 10px;
         }
 
+h3 {
+            color: rgba(231, 11, 11, 0.856);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-weight: bold;
+        }
+
+h4 {
+    color:#0056b3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+
+p { color:#0056b3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
     /*From this point it's styling buttons in the body of the text
 /* Flexbox content area */
 .content{
