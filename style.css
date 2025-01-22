@@ -52,7 +52,7 @@ h1{
     background-image: url('./assets/slocums-clip.jpg') ;
     background-size:cover;
     width:length;
-    height: fit-content(<length-percentage>);
+    height: fit-content(length-percentage);
           } 
 
 h2 {
@@ -181,6 +181,8 @@ footer {
   }
 
 .accordion-collapse {
+    background-color: whitesmoke;
+    /*this is a placeholder for when I can get the accordion functioning with Javascript*/
 
 }
 
@@ -231,4 +233,3 @@ So to keep it simple, will do only resize of image and assume flexbox will sort 
         }
     }
 
-}
