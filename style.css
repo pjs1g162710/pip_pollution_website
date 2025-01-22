@@ -100,6 +100,7 @@ p { color:#0056b3;
 
 .contactform {
     display: flex;
+    flex:content;
     justify-content: center;      
     flex-wrap: wrap;
     align-items: center;
