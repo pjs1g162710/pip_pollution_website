@@ -115,6 +115,8 @@ p { color:#0056b3;
 
 /* Flexbox items */
 .box{
+    display: flexbox;
+    flex:content;
     padding-top: 2%;
     padding-left: 8px;
     padding-right: 8px;
@@ -200,13 +202,14 @@ So to keep it simple, will do only resize of image and assume flexbox will sort 
     @media (max-width:767px) {
         img {
             max-width: 70%;
-            max-height: 70%;
+            height: 70%;
         }
     }
     /*Bigger than mobile phones but smaller than laptops */
     @media (min-width:768px) {
         img {
             max-width: 340px;
+            height: auto;
            
         }
     }
@@ -214,6 +217,7 @@ So to keep it simple, will do only resize of image and assume flexbox will sort 
     @media (min-width:992px) {
         img {
             max-width: 800px;
+            height: auto;
             
         }
     }
@@ -221,6 +225,7 @@ So to keep it simple, will do only resize of image and assume flexbox will sort 
     @media (min-width:1200px) {
         img {
             max-width: 1000px;
+            height: auto;
             
         }
     }
