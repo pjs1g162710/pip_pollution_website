@@ -28,8 +28,8 @@
 .navbutton {
     display: inline-flex;
     margin: length;
-    background-color: #0056b3;
-    color:goldenrod;
+    background-color: rgb(6, 48, 68);
+    color:rgb(247, 225, 27);
     padding: 9px;
     border-style: solid;
     box-shadow: 2px 3px rgb(162, 190, 201);
@@ -69,16 +69,19 @@ h3 {
             color: rgba(231, 11, 11, 0.856);
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font-weight: bold;
+            margin-left: 15px;
         }
 
 h4 {
     color:#0056b3;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: bold;
+    margin-left: 15px;
 }
 
 p { color:#0056b3;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 15px;
 
 }
 
@@ -93,6 +96,7 @@ p { color:#0056b3;
     padding: 20px;
     background-color: rgb(6, 48, 68);
     min-width: 1200px;
+    
 }
 
 .contactform {
@@ -127,6 +131,7 @@ p { color:#0056b3;
     border-radius: 2%;
     margin-block: 10px;
     margin-inline: 10px;
+    max-width: 768px
 
     
 }
@@ -140,6 +145,7 @@ p { color:#0056b3;
 
 .body {
     background-color: rgb(114, 114, 189);
+    margin-left: 15px;
 }
 
 footer {
@@ -175,5 +181,51 @@ footer {
   }
 
 .accordion-collapse {
+
+}
+
+/* Trying to include some media screen limitations:
+
+320 px: For most smartphones in portrait mode
+480 px: For larger smartphones and smaller tablets in portrait mode
+768 px: For most tablets in portrait mode and some laptops in landscape mode
+1024 px: For most laptops
+1366 x 768 px: For laptops
+1920 x 1080 px: For desktops or high-resolution laptops
+
+
+So to keep it simple, will do only resize of image and assume flexbox will sort rest (Tested, seems ok)
+
+
+
+*/
+    /* For mobile phones: */
+    @media (max-width:767px) {
+        img {
+            max-width: 70%;
+            max-height: 70%;
+        }
+    }
+    /*Bigger than mobile phones but smaller than laptops */
+    @media (min-width:768px) {
+        img {
+            max-width: 340px;
+           
+        }
+    }
+       /* laptops */
+    @media (min-width:992px) {
+        img {
+            max-width: 800px;
+            
+        }
+    }
+       /* laptops */
+    @media (min-width:1200px) {
+        img {
+            max-width: 1000px;
+            
+        }
+    }
 
 }
