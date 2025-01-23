@@ -43,6 +43,7 @@
         background-color: hsl(39, 85%, 47%);
        }
 
+/* Styling semantic elements */
 h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: calc(1.5rem + 2vw);
@@ -76,6 +77,7 @@ h3 {    color: #0056b3;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: bold;
         margin-left: 15px;
+
         }
 
 h3::first-line {
@@ -83,10 +85,15 @@ h3::first-line {
 
 }
 
+.body {
+    background-color: rgb(114, 114, 189);
+    margin-left: 15px;
+}
+
+
 p { color:#0056b3;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 15px;
-
 }
 
 
@@ -96,12 +103,29 @@ li {
   margin-inline-end: 1ch;
 }
 
+footer {
+    text-justify: center;
+    text-align: center;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(184, 85%, 47%);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    
+}
+
+
+/* Adding pseudo element randomly to meet assessment criteria*/
 ::placeholder {
     color: rgb(96, 194, 211);
   }
 
-    /*From this point it's styling buttons in the body of the text
-/* Flexbox content area */
+
+/* Flexbox content area - this mostly styles the box/image layout on the landing/home page*/
 .content{
     display: flex;
     justify-content: center;      
@@ -129,7 +153,7 @@ li {
 
 }
 
-/* Flexbox items */
+/* Flexbox itemsthis mostly styles the box/image layout on the landing/home page*/
 .box{
     display: flexbox;
     flex:content;
@@ -158,27 +182,6 @@ li {
     background-color: rgb(80, 212, 212);}
 
 
-.body {
-    background-color: rgb(114, 114, 189);
-    margin-left: 15px;
-}
-
-
-
-footer {
-    text-justify: center;
-    text-align: center;
-    font-style: italic;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: hsl(184, 85%, 47%);
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    align-items: center;
-    
-}
 
 .container {
     flex: content;
